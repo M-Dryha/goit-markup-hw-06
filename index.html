@@ -408,10 +408,28 @@
     </ul>
     
 </div>
+
+    <div class="footer-form-wrapper">
+        <strong class="footer-header">
+            Подпишитесь на рассылку
+        </strong>
+        <form action="#">
+            <div class="footer-form">
+                <label class="footer-form-mail">
+                    <input type="email" 
+                        name="user-email" 
+                        placeholder="E-mail" 
+                        class="footer-form-input">
+                </label>
+                <button type="submit" class="footer-form-button">Подписаться
+                    <svg class="footer-form-icon" width="24" height="24" >
+                        <use href="./images/icons.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </div>
+        </form>
+    </div>
 </div>
-
-<form action=""></form>
-
 </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -455,7 +473,10 @@
 <label class="modal-form-field">
     Почта
     <span class="modal-form-wrapper">
-        <input type="email" class="modal-form-input" name="email">
+        <input 
+        type="email" 
+        class="modal-form-input"
+        name="email">
         <svg width="18" height="18" class="modal-form-icon">
             <use href="./images/icons.svg#icon-email-black"></use>
         </svg>
@@ -473,11 +494,6 @@
 <button class="modal-form-button" type="submit">
     Отправить
 </button>
-
-
-
-
-
     </form>
     </div>
 </div>
