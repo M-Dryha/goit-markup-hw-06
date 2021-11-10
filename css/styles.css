@@ -744,7 +744,7 @@ h6 {
 .modal {
   position: absolute;
   width: 530px;
-  min-height: 590px;
+
   background-color: var(--secondary-color-text);
   border-radius: 4px;
   padding: 40px;
